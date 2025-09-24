@@ -595,13 +595,5 @@ main {
   .project-card img { width: 96vw; height: 48vw; min-width: 0; min-height: 0; }
 
 }
-.typewriter-text {
-  /* ... */
-  /* HAPUS atau KOMENTARI baris ini: */
-  /* border-right: 2px solid var(--accent2); */
-  /* ... */
-}
-@keyframes blink-caret {
-  0%, 100% { /* border-color: var(--accent2); */}
-  50% { /* border-color: transparent; */}
-}
+
+
