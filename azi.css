@@ -308,11 +308,12 @@ main {
 }
 .experience-card.exp-item {
   font-size: 1.08em;
-  font-weight: 500;
+  font-weight: 400; /* normal */
   transition: background 0.18s, color 0.18s, transform 0.18s;
   border-radius: 12px;
   padding: 0.8em 1.2em;
 }
+
 .experience-card.exp-item:hover {
   background: var(--accent2);
   color: #fff;
@@ -589,6 +590,7 @@ main {
   .project-card img { width: 96vw; height: 48vw; min-width: 0; min-height: 0; }
 
 }
+
 
 
 
