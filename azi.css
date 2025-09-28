@@ -254,10 +254,10 @@ main {
   font-size: 1.08em;
   line-height: 1.8;
   min-height: 120px;
-  border-right: 2px solid var(--accent2);
   white-space: pre-line;
-  animation: blink-caret 0.8s steps(1) infinite;
   overflow: hidden;
+  border: none;
+  text-align: justify; /* ➝ bikin rata kanan kiri */
 }
 .animated-text {
   animation: fadeInUp 0.9s cubic-bezier(.23,.94,.45,1) both;
@@ -582,6 +582,7 @@ main {
   .project-card img { width: 96vw; height: 48vw; min-width: 0; min-height: 0; }
 
 }
+
 
 
 
