@@ -306,12 +306,15 @@ main {
   box-shadow: var(--shadow);
   padding: 2em 2.7em;
 }
-.experience-card.exp-item:hover {
-  background: var(--accent2);
-  color: #fff;
-  transform: scale(1.04);
-  box-shadow: 0 0 12px var(--accent2);
+.experience-card.exp-item {
+  font-size: 1.08em;
+  font-weight: 400;
+  transition: background 0.18s, color 0.18s, transform 0.18s;
+  border-radius: 12px;
+  padding: 0.8em 1.2em;
+  background: transparent; /* kotak hilang */
 }
+
 .experience-card h4 {
   margin: 0.2em 0 0.2em 0;
   color: var(--accent);
@@ -582,6 +585,7 @@ main {
   .project-card img { width: 96vw; height: 48vw; min-width: 0; min-height: 0; }
 
 }
+
 
 
 
