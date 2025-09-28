@@ -91,8 +91,7 @@ if (canvas) {
 function typeAbout() {
   const el = document.getElementById('about-desc');
   const text = `Saya Dzikry Ramadhany, mahasiswa Ilmu Komputer di Universitas Negeri Medan yang punya ketertarikan pada cyber security.
-Pengalaman saya sebagai cyber data akun game memberikan pemahaman praktis soal pentingnya perlindungan data.
-Di luar akademis, saya menjaga keseimbangan dengan hobi lari dan main game, membentuk saya jadi pribadi tangguh dan strategis.
+Pengalaman saya sebagai cyber data akun game memberikan pemahaman praktis soal pentingnya perlindungan data.Di luar akademis, saya menjaga keseimbangan dengan hobi lari dan main game, membentuk saya jadi pribadi tangguh dan strategis.
 Saya berambisi terus belajar dan berkontribusi di dunia keamanan siber.`;
   let i = 0;
   el.textContent = '';
@@ -180,4 +179,5 @@ document.querySelectorAll('.achievement-card img, .project-card img').forEach(fu
     modalImg.src = this.src;
     modalCaption.innerText = this.alt;
   }
+
 });
