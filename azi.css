@@ -259,13 +259,6 @@ main {
   animation: blink-caret 0.8s steps(1) infinite;
   overflow: hidden;
 }
-/* Hilangkan titik-titik animasi di sebelah kanan */
-.typewriter-text:after { content: ""; }
-@keyframes blink-caret {
-  0%, 100% { border-color: var(--accent2);}
-  50% { border-color: transparent;}
-}
-
 .animated-text {
   animation: fadeInUp 0.9s cubic-bezier(.23,.94,.45,1) both;
 }
@@ -596,6 +589,7 @@ main {
   .project-card img { width: 96vw; height: 48vw; min-width: 0; min-height: 0; }
 
 }
+
 
 
 
